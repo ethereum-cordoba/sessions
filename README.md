@@ -1,2 +1,3 @@
-# sessions
-Ethereum Córdoba sessions
+# Ethereum Córdoba sessions
+
+***[WIP]***
