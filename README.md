@@ -9,7 +9,7 @@ Our aim is to foster a vibrant and knowledgeable Ethereum community in Córdoba 
 This initiative is coordinated by the Ethereum Córdoba community group, an official community group dedicated to promoting Ethereum technology and its ecosystem in the Córdoba region.
 
 * **Community Contributors:**
-    * [Nicolás Rivero Corvalán](https://github.com/nicolasriverocorvalan) **(Coordinator)** 
+    * [Nicolás Rivero Corvalán](https://github.com/nicolasriverocorvalan) **(coordinator)**
     * [Matías Marenchino](https://www.linkedin.com/in/matiaslm)
     * [Sebastián Giraudo](https://www.linkedin.com/in/sebastian-giraudo)
 * **General Inquiries:** For questions about sessions, proposals to speak, or to get involved, please:
