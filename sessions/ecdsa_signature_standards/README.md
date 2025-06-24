@@ -11,9 +11,9 @@ The process involves three key roles:
 2. `The Relayer`: A third-party service or another user who takes the Signer's message and signature. The Relayer wraps this data in a standard blockchain transaction and submits it to the smart contract. The Relayer is the one who pays the gas fee for the transaction.
 
 3. `The Contract`: The smart contract is designed to receive the signed message from the Relayer. It performs a critical verification step:
-    a. It reconstructs the exact same structured message that the Signer was supposed to sign.
-    b. Using the signature and the reconstructed message, it uses ECDSA.recover to determine which address created the signature.
-    c. If the recovered address matches the signer's address, the signature is valid, and the contract executes the action (e.g., updates a value) on behalf of the Signer.
+   1. It reconstructs the exact same structured message that the Signer was supposed to sign.
+   2. Using the signature and the reconstructed message, it uses ECDSA.recover to determine which address created the signature.
+   3. If the recovered address matches the signer's address, the signature is valid, and the contract executes the action (e.g., updates a value) on behalf of the Signer.
 
 This creates a "gasless" experience for the end-user, significantly improving usability for decentralized applications. The nonce management within the contract is crucial to prevent a relayer from submitting the same valid signature multiple times (a "replay attack").
 
