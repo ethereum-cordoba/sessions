@@ -9,7 +9,7 @@ Our aim is to foster a vibrant and knowledgeable Ethereum community in Córdoba 
 This initiative is coordinated by the Ethereum Córdoba community group, an official community group dedicated to promoting Ethereum technology and its ecosystem in the Córdoba region.
 
 * **Community Contributors:**
-    * [Nicolás Rivero Corvalán](https://www.linkedin.com/in/riveronicolas) **(coordinator)**
+    * [Nicolás Rivero Corvalán](https://www.linkedin.com/in/riveronicolas) (coordinator)
     * [Matías Marenchino](https://www.linkedin.com/in/matiaslm)
     * [Sebastián Giraudo](https://www.linkedin.com/in/sebastian-giraudo)
 * **General Inquiries:** For questions about sessions, proposals to speak, or to get involved, please:
@@ -17,6 +17,13 @@ This initiative is coordinated by the Ethereum Córdoba community group, an offi
     * Email us at: [ethereum.cba@gmail.com](mailto:ethereum.cba@gmail.com)
     * Contact coordinator directly for specific inquiries if appropriate.
     * Open an issue in this GitHub repository.
+
+## Content Library
+
+Explore materials from our past and upcoming sessions. Each folder holds resources on specific topics, including presentations, code samples, and discussion notes. We'll also upload content here for you to review before a lecture.
+
+* [sessions/](sessions/) - This directory will contain individual folders for each topic.
+    * [ECDSA signature standards](sessions/ecdsa_signature_standards/)
 
 ## Topics & Format
 
