@@ -7,14 +7,14 @@ This security review is provided for educational purposes only, with the objecti
 The findings presented are not guaranteed to be a complete list of all potential issues. The code discussed should not be used in a production environment without first undergoing a comprehensive, professional security audit.
 ```
 
-## Repo ***simple-defi-farm***
+## ***simple-defi-farm***
 
-* [repo: simple-defi-farm](https://github.com/JuliaGastellu/simple-defi-farm)
-* [commit hash afae9848d66c51d0ea9c36cedd163fa8420eb0ce](https://github.com/JuliaGastellu/simple-defi-farm/commit/afae9848d66c51d0ea9c36cedd163fa8420eb0ce)
-* [Checks-Effects-Interactions pattern](https://docs.soliditylang.org/en/latest/security-considerations.html)
+* [Repo: simple-defi-farm](https://github.com/JuliaGastellu/simple-defi-farm)
+* [Commit hash: afae9848d66c51d0ea9c36cedd163fa8420eb0ce](https://github.com/JuliaGastellu/simple-defi-farm/commit/afae9848d66c51d0ea9c36cedd163fa8420eb0ce)
+* [Doc: Checks-Effects-Interactions pattern](https://docs.soliditylang.org/en/latest/security-considerations.html)
 * Check `***Foundry test:***` for PoC details
 
-## ***Security findings***
+## ***Security Findings***
 ## [H-1] Unbounded loop in distributeRewardsAll leads to permanent denial of service
 
 The `distributeRewardsAll()` function iterates through the `stakerAddresses` array to update rewards for every staker. This array grows with each new unique depositor and is never pruned. As the number of stakers increases, the gas cost to execute this loop will inevitably exceed the block gas limit.
