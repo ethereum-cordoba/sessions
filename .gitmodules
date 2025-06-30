@@ -1,0 +1,6 @@
+[submodule "sessions/security_audits/simple-defi-farm/lib/forge-std"]
+	path = sessions/security_audits/simple-defi-farm/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "sessions/security_audits/simple-defi-farm/lib/openzeppelin-contracts"]
+	path = sessions/security_audits/simple-defi-farm/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
