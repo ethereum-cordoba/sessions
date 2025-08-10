@@ -19,9 +19,9 @@ ECDSA could be used for generating key pairs, create signatures or verify signat
 1. `Section 1`: `0x19 (decimal value 25)`: This is a fixed prefix byte that indicates the start of an EIP-191 message. It helps distinguish `EIP-191` messages from other types of data.
 
 2. `Section 2`: `<1 byte version>`: This byte specifies the version of the message format. Different versions can define different structures for the message.
-    a. `0x00`: used for Ethereum signed messages. This version is used for signing arbitrary messages with the Ethereum prefix.
-    b. `0x01`: used for signing structured data as defined in `EIP-712`.
-    c. `0x45`: used for signing arbitrary data without any specific structure (personal sign messages).
+    - a. `0x00`: used for Ethereum signed messages. This version is used for signing arbitrary messages with the Ethereum prefix.
+    - b. `0x01`: used for signing structured data as defined in `EIP-712`.
+    - c. `0x45`: used for signing arbitrary data without any specific structure (personal sign messages).
 
 3. `Section 3`: `<version specific data>`: This part of the message can vary depending on the version byte.
     * For version `0x01`, you have to provide the validator address.
