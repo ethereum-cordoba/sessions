@@ -45,10 +45,10 @@ We aim to cover a wide range of topics related to Ethereum and Web3 technology, 
 
     **Upcoming/Recent Events:**
 
-    * **Date/Status:** October 2025 (Specific day to be confirmed)
+    * **Date/Status:** October 17, 2025 – 19:00
         * **Event Type:** Meetup
         * **Venue:** FaMAF (Facultad de Matemática, Astronomía, Física y Computación - UNC), Córdoba.
-        * **Venue Website:** [FaMAF UNC](http://www.famaf.unc.edu.ar/)
+        * **Venue Website:** [FaMAF UNC](https://www.famaf.unc.edu.ar/)
         * **Agenda/Lectures:**
             * **Title:** ERC-4337, Architecture Deep Dive, Solidity, CI/CD Deployments, Security
                 * **Speakers:** [Nicolás Rivero Corvalán](https://github.com/nicolasriverocorvalan), [Matías Marenchino](https://www.linkedin.com/in/matiaslm)
