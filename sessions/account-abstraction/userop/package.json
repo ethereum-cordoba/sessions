@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "permissionless": "^0.2.57",
+    "tslib": "^2.8.1",
+    "viem": "^2.38.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

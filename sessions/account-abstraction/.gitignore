@@ -1,0 +1,22 @@
+# Operating System files
+.DS_Store
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# Environment Variables
+.env
+
+# Dependencies
+venv/
+node_modules/
+
+# Build & Compiler Output
+cache/
+out/
+
+# Foundry libraries / dependencies
+lib/
