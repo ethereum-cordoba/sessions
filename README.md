@@ -23,7 +23,6 @@ This initiative is coordinated by the Ethereum Córdoba community group, an offi
 Explore materials from our past and upcoming sessions. Each folder holds resources on specific topics, including presentations, code samples, and discussion notes. We'll also upload content here for you to review before a lecture.
 
 * [sessions/](sessions/) - This directory will contain individual folders for each topic.
-    * [ECDSA signature standards](sessions/ecdsa_signature_standards/)
 
 ## Topics & Format
 
